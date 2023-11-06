@@ -1,0 +1,61 @@
+/* Home.css */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    border-radius: 0 0 4px 4px;
+}
+
+.carousel-caption h3 {
+    font-size: 2rem;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #007bff;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+    content: '\2039';
+    /* Unicode code for left arrow */
+    font-size: 2rem;
+    color: white;
+}
+
+.carousel-control-next-icon::before {
+    content: '\203A';
+    /* Unicode code for right arrow */
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 15px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
